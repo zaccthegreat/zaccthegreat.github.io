@@ -2,26 +2,26 @@ body {
     background-color: bisque
 }
 
-div.selfphoto {
+div.container {
     margin: 0 auto;
     max-width: 400px;
-    padding: 10px;
+    padding: 5px;
 }
 
 p {    
     font-family: 'Raleway', sans-serif;
-    overflow-wrap: break-word;
-    margin: 0 auto;
-    max-width: 400px;
-    padding: 10px;
-
+    
 }
 
 h1, h2 {
-    font-family: 'Raleway:900', sans-serif;
-    overflow-wrap: break-word;
-    margin: 0 auto;
-    max-width: 400px;
-    padding: 12px;
-    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
